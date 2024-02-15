@@ -1,0 +1,21 @@
+{
+  "name": "battersea-dogs-checker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src",
+    "test": "vitest --run",
+    "test:dev": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jsdom": "^23.2.0"
+  },
+  "devDependencies": {
+    "vitest": "^1.2.0"
+  }
+}
