@@ -1,8 +1,8 @@
 import fs from "fs";
 import { test, expect } from "vitest";
-import * as lib from "./lib"
+import * as lib from "../src/lib"
 
-const html = fs.readFileSync("src/data.html").toString("utf-8");
+const html = fs.readFileSync("test/data.html").toString("utf-8");
 
 test("should return list of dog names, breeds, ages and URLs", () => {
     const dogs = lib.parseHtml(html);
